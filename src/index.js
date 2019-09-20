@@ -8,16 +8,17 @@ import content from './content.json';
 import Page from './components/Page/Page.jsx';
 import Header from './components/Header/Header.jsx';
 import About from './components/About/About.jsx';
-import If from './If/If.jsx';
 
 
+// eslint-disable-next-line no-unused-vars
 const App = (props) => {
   return (
         <>
         <Header/>
         <Switch>
           <Route exact path="/about" component={About}/>
-          <Route exact path="/page" render={props => <Page  content={content}Josh="hello" />}
+          {/* eslint-disable-next-line no-shadow,no-unused-vars */}
+          <Route exact path="/page" render={(props) => <Page content={content} />}
           />
         </Switch>
         </>

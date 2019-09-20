@@ -10,6 +10,7 @@
 ### Links and Resources
 * [submission PR](https://github.com/yosh-401-advanced-javascript/401-lab-29/pull/1)
 * [travis](https://travis-ci.com/yosh-401-advanced-javascript/401-lab-29/builds/128102023)
+* [netlify](https://app.netlify.com/sites/zen-jennings-5e47bd/overview)
 
 #### Documentation
 * `npm run docs`
